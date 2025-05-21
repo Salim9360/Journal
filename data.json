@@ -1,0 +1,89 @@
+{
+  "journal": {
+    "nomJournal": "Service Gagnant",
+    "phraseAccroche": "À la découverte des étoiles montantes du tennis français",
+    "texteAppelAction": "Abonnez-vous pour suivre l'ascension des talents de demain",
+    "articlePrincipal": {
+      "titre": "Arthur Fils : le nouveau prodige du tennis tricolore",
+      "description": "À seulement 20 ans, Arthur Fils s'impose comme l'un des espoirs les plus prometteurs du tennis français, avec des performances remarquées sur le circuit ATP.",
+      "date": "20 Mai 2025",
+      "theme": "Innovations",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Arthur_Fils_2023.jpg/800px-Arthur_Fils_2023.jpg"
+    },
+    "articles": [
+      {
+        "titre": "Luca Van Assche : une progression fulgurante sur le circuit",
+        "date": "15 Avril 2025",
+        "theme": "Recherche",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Luca_Van_Assche_2023.jpg/800px-Luca_Van_Assche_2023.jpg"
+      },
+      {
+        "titre": "Clara Burel : entre persévérance et ambition",
+        "date": "10 Mars 2025",
+        "theme": "Applications",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Clara_Burel_2023.jpg/800px-Clara_Burel_2023.jpg"
+      },
+      {
+        "titre": "La formation à la française : un modèle en question",
+        "date": "25 Février 2025",
+        "theme": "Débats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/INSEP_Paris.jpg/800px-INSEP_Paris.jpg"
+      },
+      {
+        "titre": "Partenariats publics-privés : un levier pour le tennis français",
+        "date": "10 Janvier 2025",
+        "theme": "Partenariats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Federation_Francaise_de_Tennis.jpg/800px-Federation_Francaise_de_Tennis.jpg"
+      },
+      {
+        "titre": "Éthique et performance : le dilemme des jeunes sportifs",
+        "date": "5 Décembre 2024",
+        "theme": "Éthique",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tennis_Junior_Training.jpg/800px-Tennis_Junior_Training.jpg"
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Innovations",
+        "description": "Les nouvelles figures du tennis français qui révolutionnent le sport."
+      },
+      {
+        "nom": "Recherche",
+        "description": "Analyses des parcours et des performances des jeunes talents."
+      },
+      {
+        "nom": "Applications",
+        "description": "L'impact des jeunes joueurs français sur la scène internationale."
+      },
+      {
+        "nom": "Débats",
+        "description": "Les enjeux sociaux et éducatifs dans les académies de tennis françaises."
+      },
+      {
+        "nom": "Partenariats",
+        "description": "Les collaborations entre clubs français et organisations internationales."
+      },
+      {
+        "nom": "Éthique",
+        "description": "Les défis sociaux et culturels liés à la pratique du tennis chez les jeunes Français."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Claire",
+        "typeExperience": "Journaliste sportive",
+        "presentation": "Je couvre le tennis avec un intérêt particulier pour les jeunes talents émergents."
+      },
+      {
+        "prenom": "Thomas",
+        "typeExperience": "Analyste en développement sportif",
+        "presentation": "Je m'intéresse aux interactions entre sport, culture et politique, notamment dans le tennis français."
+      },
+      {
+        "prenom": "Elena",
+        "typeExperience": "Sociologue du sport",
+        "presentation": "Je travaille sur les dynamiques sociales et identitaires liées à la pratique du tennis chez les jeunes."
+      }
+    ]
+  }
+}
