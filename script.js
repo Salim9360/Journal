@@ -10,10 +10,6 @@ function getData() {
        // Traitez les données comme vous le souhaitez
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
-      let dataContainer = document.getElementById('data-container');
-      let data = [0]
-      console.log(data);
-      let dataCard = document.createElement('div');
 
        /// FIN DU CODE
      })
