@@ -24,10 +24,13 @@ function getData() {
 
         themes.forEach(function (theme) {
         let divTheme = document.createElement("div");
+
          let nom = document.createElement("h4");
          nom.textContent = theme.nom;
+
          let description = document.createElement("p");
          description.textContent = theme.description;
+
          divTheme.appendChild(nom);
          divTheme.appendChild(description);
          blocThemes.appendChild(divTheme);
@@ -53,13 +56,63 @@ function getData() {
         let description = document.createElement("h3")
         description.textContent = principal.description;
 
-        divPrincipal.appendChild(titrePrincipal);
+        divPrincipal.appendChild (titrePrincipal);
         divPrincipal.appendChild(date);
         divPrincipal.appendChild(theme)
         divPrincipal.appendChild(image);
         divPrincipal.appendChild(description);
-        blocPrincipal.appendChild(divPrincipal); 
+        blocPrincipal.appendChild(divPrincipal);
 
+        let articles = data.journal.articles
+        let blocArticles = document.getElementById("articles")
+
+         articles.forEach(function (article) {
+         let divArticle = document.createElement("div");
+         
+         let titre = document.createElement("h3");
+         titre.textContent = article.titre;
+
+         let data = document.createElement("p");
+         data.textContent = "Date : " + article.date;
+
+         let theme = document.createElement("p");
+         theme.textContent = "Thème : " + article.theme;
+
+         let image = document.createElement("img")
+         image.src = article.image;
+         image.alt = article.titre;
+
+
+         divArticle.appendChild(titre)
+         divArticle.appendChild(date);
+         divArticle.appendChild(theme)
+         divArticle.appendChild(image);;
+         blocArticles.appendChild(divArticle);
+
+        });
+
+        let auteurs = data.journal.auteurs
+        let blocAuteurs = document.getElementById("auteurs")
+
+         auteurs.forEach(function (auteur) {
+         let divAuteur = document.createElement("div");
+         
+         let prenom = document.createElement("h4");
+         prenom.textContent = auteur.prenom;
+
+         let metier = document.createElement("p");
+         metier.textContent = auteur.typeExperience
+
+         let presentation = document.createElement("p");
+         presentation.textContent = auteur.presentation
+
+
+         divAuteur.appendChild(prenom)
+         divAuteur.appendChild(metier);
+         divAuteur.appendChild(presentation)
+         blocAuteurs.appendChild(divAuteur);
+
+        });
 
 
 
